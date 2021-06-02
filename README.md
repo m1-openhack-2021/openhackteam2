@@ -1,6 +1,6 @@
 # openhackteam2
 =======
-#CD
-#Francesco
-#Edwin
-TYZ
+* CD
+* Francesco
+* Edwin
+* TYZ
