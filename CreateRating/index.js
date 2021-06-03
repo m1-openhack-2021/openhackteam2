@@ -21,6 +21,8 @@ module.exports = async function(context, req) {
         //text: 'SELECT * FROM Rating'
        text: `INSERT INTO Rating (id, userId, productId, timestamp, locationName, rating, userNotes) VALUES ('${req.body.id}','${req.body.userId}','${req.body.productId}','${req.body.timestamp}','${req.body.locationName}',${req.body.rating},'${req.body.userNotes}')`
     }
+    
+    context.log(querySpec);
 
     try {
         // Create a pool of connections
